@@ -10,7 +10,7 @@ let mesDos =parseFloat (prompt("igreso bruto del mes 2"))
 let mesTres =parseFloat (prompt("igreso bruto del mes 3"))
 
 
-let resultadoTrimestral = (mesUno + mesDos + mesTres)
+let resultadoTrimestral = (mesUno + mesDos + mesTres /3)
 
 alert ( "tu ganancia bruta trimestral es $" + resultadoTrimestral)
 
