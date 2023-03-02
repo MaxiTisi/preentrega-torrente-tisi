@@ -12,7 +12,18 @@ let mesTres =parseFloat (prompt("igreso bruto del mes 3"))
 
 let resultadoTrimestral = (mesUno + mesDos + mesTres /3)
 
-alert ( "tu ganancia bruta trimestral es $" + resultadoTrimestral)
+if (resultadoTrimestral  >= 2500 ){
+
+    alert ("su ganancia bruta trimestral es $" + resultadoTrimestral + " usted puede sacar prestamos")
+}
+
+else{
+    alert("su ganancia bruta trimestral es $" + resultadoTrimestral + " Usted no puede sacar prestamo")
+}
+
+
+
+
 
 
 
