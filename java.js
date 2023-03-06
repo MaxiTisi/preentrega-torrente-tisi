@@ -10,7 +10,8 @@ let mesDos =parseFloat (prompt("igreso bruto del mes 2"))
 let mesTres =parseFloat (prompt("igreso bruto del mes 3"))
 
 
-let resultadoTrimestral = (mesUno + mesDos + mesTres /3)
+function prestamo (){
+    let resultadoTrimestral = (mesUno + mesDos + mesTres /3)
 
 if (resultadoTrimestral  >= 2500 ){
 
@@ -21,6 +22,9 @@ else{
     alert("su ganancia bruta trimestral es $" + resultadoTrimestral + " Usted no puede sacar prestamo")
 }
 
+}
+
+prestamo ()
 
 
 
